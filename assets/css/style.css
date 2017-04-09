@@ -1,0 +1,363 @@
+body {
+  margin: 0;
+  color: #fff;
+  background-color: #161616;
+  font-family: serif;
+  letter-spacing: 0.3em;
+}
+a, p {
+  margin: 0;
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  opacity: .7;
+}
+.vertical {
+  writing-mode: vertical-rl;
+	-ms-writing-mode: tb-rl;
+	-webkit-writing-mode:vertical-rl;
+}
+.btn {
+  margin: 0 auto;;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  display: block;
+  border: 1px solid #FFF;
+  width: 220px;
+  padding: 32px;
+}
+.btn img {
+  width: 10px;
+  vertical-align: -4px;
+  margin: 0 20px 0 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h2 {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 100;
+  line-height: 0.3em;
+  text-shadow: 1px 1px 20px #000;
+}
+
+/* 共通 */
+
+#global_wrapper {
+  margin: 0 auto;
+  min-width: 1400px;
+}
+#header {
+
+}
+
+/* id */
+
+.top_cover_box {
+		width: 100%;
+		min-width: 1020px;
+		height: 760px;
+		background: url(../images/sumihei01.png) no-repeat;
+		background-position: center center;
+		background-size: 100%;
+		}
+.top_cover {
+		width: 1400px;
+		height: 760px;
+		margin: 0 auto;
+		position: relative;
+}
+.top_cover h1 {
+		position: absolute;
+		left: 64px;
+		top: 24px;
+}
+/* top */
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+  overflow: hidden;
+}
+.global_navigation {
+  position: fixed; /*600px 以下では画面下に固定*/
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: -3px;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+}
+.global_navigation .gnav_list_item {
+  float: left;
+  margin: 35px 62px;
+}
+.global_navigation .gnav_reserve {
+  position: absolute;
+  right: 60px;
+  bottom: 0px;
+}
+.global_navigation .gnav_reserve img {
+  width: 240px;
+  margin-right: 0;
+}
+#nav ul {
+  display: none;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+#nav li {
+  float: left;
+  width: 50%;
+  border-bottom: none;
+  text-align: center;
+}
+#nav li a {
+  font-size: 18px;
+  padding: 12px 0;
+  border-top: 1px solid #fff;
+  background: #888;
+  color: #fff;
+  display: block;
+  margin: auto;
+  opacity: .9;
+}
+/* global_navigation */
+
+.lead {
+  padding: 70px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 74px;
+  margin-top: 10px;
+}
+span {
+  font-size: 14px;
+}
+.content_crab {
+  position: relative;
+}
+.content_crab_box {
+  width: 100%;
+  min-width: 1020px;
+  height: 858px;
+  background: url(../images/sumihei02.png) no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}
+.content_crab .crab h2 {
+  position: absolute;
+  left: 180px;
+  top: 170px;
+}
+.content_crab .crab p {
+  position: absolute;
+  left: 170px;
+  top: 500px;
+  font-size: 18px;
+}
+ .content_crab .content_body{
+  padding: 100px 0;
+  margin-bottom: 100px;
+  text-align: center;
+}
+/* content_crab */
+
+.service .content_heading{
+  position: absolute;
+  top: 60px;
+  left: 50%;
+}
+.service .content_heading p {
+  position: absolute;
+  top: 40%;
+  left: -70px;
+  height: 380px;
+  font-size: 24px;
+  text-shadow: 1px 1px 20px #000;
+}
+.service .content_body{
+  padding: 100px 0;
+  text-align: center;
+}
+.service .content_body p {
+  font-size: 18px;
+  margin-bottom: 100px;
+  line-height: 38px;
+}
+.service .content_visual_food{
+  position: relative;
+  width: 100%;
+  min-width: 1020px;
+  height: 550px;
+  background: url(../images/sumihei03.JPG) no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}/* content_service_food */
+
+.service .content_visual_view{
+  position: relative;
+  width: 100%;
+  min-width: 1020px;
+  height: 550px;
+  background: url(../images/sumihei04.png) no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}/* content_service_view */
+
+.service .content_visual_onsen{
+  position: relative;
+  width: 100%;
+  min-width: 1020px;
+  height: 550px;
+  background: url(../images/sumihei05.jpg) no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}/* content_service_onsen */
+
+.service .content_visual_room{
+  position: relative;
+  width: 100%;
+  min-width: 1020px;
+  height: 550px;
+  background: url(../images/sumihei06.jpg) no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}/* content_service_room */
+/* service */
+
+
+.news {
+  background-color: #e6e6e6;
+}
+.news_title {
+  color: #000;
+  text-align: center;
+  padding: 64px 0 30px;
+  border-bottom: 1px solid #000;
+  width: 300px;
+  margin: 0 auto;
+  text-shadow: none;
+  font-size: 24px;
+}
+
+.news_box_all {
+  width: 950px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.news_box {
+  padding: 24px;
+  overflow: hidden;
+}
+.news_day {
+  float: left;
+  margin-right: 20px;
+  position: relative;
+}
+.news_body {
+  width: 785px;
+  color: #000;
+  font-size: 14px;
+  line-height: 26px;
+  float: right;
+  letter-spacing: .3em;
+}
+.news_sns {
+  text-align: center;
+  padding: 44px;
+}
+.news_sns img {
+  width: 42px;
+  margin: 4px
+  }/* news */
+
+
+.topbtn_bar {
+  height: 90px;
+  background-color: #fff;
+  text-align: center;
+}
+.topbtn img {
+  padding-top: 40px;
+  width: 24px;
+}/* topbtn */
+
+
+.footer_cover_box {
+	width: 100%;
+	min-width: 1020px;
+	background: url(../images/sumihei07.png) no-repeat;
+	background-position: center;
+	background-size: 100%;
+	}
+.footer_cover {
+  position: relative;
+	height: 354px;
+	margin: 0 auto;
+}
+.footer_box .logo {
+	position: absolute;
+	left: 350px;
+  top: 60px;
+}
+.footer_box .logo img {
+  width: 110px;
+}
+.footer_box .footer_body {
+  position: absolute;
+  font-size: 14px;
+  left: 520px;
+  top: 153px;
+}
+.footer_box .copylight {
+  position: absolute;
+  left: 480px;
+  top: 206px;
+  font-size: 11px;
+
+}
+#footer_list {
+  position: absolute;
+  left: 500px;
+  top: 154px;
+}
+.footer_list_item {
+  float: left;
+  font-size: 14px;
+  margin: 0 8px;
+}
+.footer_list_item img {
+  width: 240px;
+  margin-right: 0;
+}
+/* footer */
+
+
+.global_navigation .gnav_list_item.media_only {
+  display: none;
+}
+@media (max-width: 1300px) {
+  .global_navigation .gnav_reserve {
+    display: none;
+  }
+  .global_navigation .gnav_list_item.media_only {
+    display: inline-block;
+  }
+  .global_navigation .gnav_list_item {
+    float: left;
+    margin: 40px 20px;
+  }
+}
